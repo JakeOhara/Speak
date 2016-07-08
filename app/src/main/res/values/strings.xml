@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">Speak</string>
     <string name="action_settings">Settings</string>
+    <string name="tap_mic">Tap on the mic and speak</string>
+    <string name="speak_prompt">Talk now</string>
+    <string name="no_work">Your device does not support speech input...</string>
 </resources>
