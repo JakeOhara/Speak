@@ -38,14 +38,6 @@
             android:layout_height="wrap_content"
             android:background="@null"
             android:src="@drawable/ic_mic_none_black_48dp" />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
-            android:text="@string/tap_mic"
-            android:textColor="@color/black"
-            android:textSize="20dp"
-            android:textStyle="normal" />
+        
     </LinearLayout>
 </RelativeLayout>
