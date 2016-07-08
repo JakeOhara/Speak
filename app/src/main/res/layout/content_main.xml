@@ -38,6 +38,6 @@
             android:layout_height="wrap_content"
             android:background="@null"
             android:src="@drawable/ic_mic_none_black_48dp" />
-        
+
     </LinearLayout>
 </RelativeLayout>
