@@ -3,9 +3,9 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
-    <color name="natuticalBlue">#2C3E50</color>
-    <color name="natuticalRed">#fc4349</color>
-    <color name="natuticalGrey">#d7dadb</color>
-    <color name="natuticalLightBlue">#6dbcdb</color>
-    <color name="natuticalWhite">#FFF</color>
+    <color name="natuticalBlue">#1E88E5</color>
+    <color name="natuticalRed">#e53935</color>
+    <color name="natuticalGrey">#EEEEEE</color>
+    <color name="natuticalGreen">66BB6A</color>
+    <color name="natuticalWhite">#F5F5F5</color>
 </resources>
