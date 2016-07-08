@@ -18,9 +18,9 @@
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="100dp"
+        android:layout_marginTop="50dp"
         android:textColor="@color/black"
-        android:textSize="26dp"
+        android:textSize="30dp"
         android:textStyle="normal" />
 
     <LinearLayout
@@ -28,7 +28,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="60dp"
+        android:layout_marginBottom="30dp"
         android:gravity="center"
         android:orientation="vertical" >
 
@@ -40,6 +40,7 @@
             android:src="@drawable/mic" />
 
     </LinearLayout>
+<<<<<<< HEAD
 
     <TextView
         android:layout_width="wrap_content"
@@ -49,4 +50,6 @@
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:text="Tap on the mic and speak" />
+=======
+>>>>>>> 661485fc47d4558128cc40530bb894e9833e4eb8
 </RelativeLayout>

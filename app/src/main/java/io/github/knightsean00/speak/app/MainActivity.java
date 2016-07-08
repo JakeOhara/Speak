@@ -3,9 +3,11 @@ package io.github.knightsean00.speak.app;
 import java.util.ArrayList;
 import java.util.Locale;
 
+import android.content.DialogInterface;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
+import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
@@ -100,5 +102,27 @@ public class MainActivity extends AppCompatActivity {
         }
 
         return super.onOptionsItemSelected(item);
+    }
+    public void exitApp(View v) {
+        finish(); //exit the application
+    }
+
+    @Override
+    public void onBackPressed() {
+        AlertDialog.Builder builder = new AlertDialog.Builder(MainActivity.this);
+        builder.setMessage("Are you sure you would like to exit?");
+        builder.setCancelable(true);
+        builder.setPositiveButton("Yes", new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialog, int id) {
+                finish();
+            }
+        });
+        builder.setNegativeButton("Cancel", new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialog, int id) {
+                dialog.cancel();
+            }
+        });
     }
 }
