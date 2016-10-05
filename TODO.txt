@@ -1,0 +1,7 @@
+TODO List:
+
+Add Copy to Clipboard buttton
+Allow speech to text from auudio files
+Add sound recorder, and playback
+Add text to speech
+Fleshout the setttings tab

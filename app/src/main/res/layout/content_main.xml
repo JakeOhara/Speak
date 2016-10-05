@@ -47,5 +47,5 @@
         android:id="@+id/textView"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:text="Tap on the mic and speak" />
+        android:text="@string/tap_mic" />
 </RelativeLayout>
